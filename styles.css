@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color:#EDF6E5;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color:#F38BA0;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1{
+    color: #22577A;
+    font-weight:bolder ;
+}
+
+h3{
+    color: #57CC99;
+}
+
+img:hover {
+    background-color: cyan;
+}
+
+/* *****CLASS SELECTOR**** */
+
+.bacon{
+    background-color: rgb(177, 157, 179);
+}
+
+.banana{
+    background-color: darkslategrey;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+/* ************ID SELECTOR************* */
+
+#heading{
+    color: #F38BA0; /** id = "heading is being overriden oven h1 property" */
+}
+
